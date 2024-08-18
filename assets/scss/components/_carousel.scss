@@ -1,0 +1,14 @@
+.carrusel{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    &__item{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        img{
+            width: 220px;
+            display: block;
+        }
+    }
+}

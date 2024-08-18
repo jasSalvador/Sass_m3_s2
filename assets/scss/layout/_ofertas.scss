@@ -1,0 +1,14 @@
+.ofertas{
+    width: 90%;
+    margin: 50px auto;
+    &__titulo{
+        padding: 30px;
+        font-size: $xxLarge;
+        color: $claro;
+    }
+    &__tarjetas{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

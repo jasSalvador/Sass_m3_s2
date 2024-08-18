@@ -1,0 +1,11 @@
+.footer{
+    font-size: $small;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    i{
+        font-size: 20px;
+    }
+}

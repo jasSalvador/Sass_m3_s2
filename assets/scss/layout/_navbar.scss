@@ -1,0 +1,23 @@
+.navbar{
+    background-color: cadetblue;
+    padding: 12px 0;
+    &__menu{
+        display: flex;
+        align-items: center;
+        &__item{
+            list-style: none;
+            padding: 0 10px;
+            a{
+                text-decoration: none;
+                color: aliceblue;
+            }
+        }
+        &__item--tienda{
+            font-size: $xLarge;
+            margin-left: 0.5rem;
+        }
+        &__item--right{
+            margin-left: auto;
+        }
+    }
+}

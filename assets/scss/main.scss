@@ -1,0 +1,23 @@
+//importar archivos
+
+//vendor | siempre va arriba ya q podria sobreescribir algunas clases
+@import './vendor/normalize';
+
+//abstract
+@import './abstract/variable';
+
+//base
+@import './base/typography'; //antes del reset
+@import './base/reset';
+
+//layout
+@import './layout/navbar';
+@import './layout/header';
+@import './layout/novedades';
+@import './layout/ofertas';
+@import './layout/footer';
+
+//components
+@import './components/carousel';
+@import './components/button';
+@import './components/tarjeta'
